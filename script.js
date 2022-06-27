@@ -47,6 +47,13 @@
        console.log("L'article vaut " + Y + " TTC");*/
 
        //Exo 4
-       getUTCDay();
-       console.Log("Aujourd'hui nous sommes " + getUTCDay);
+       var now = new Date();
+       var annee   = now.getFullYear();
+       var mois    = now.getMonth() + 1;
+       var jour    = now.getDate();
+       var heure   = now.getHours();
+       var minute  = now.getMinutes();
+       var seconde = now.getSeconds();
+
+       console.log("Nous sommes le "+jour+"/"+mois+"/"+annee+" et il est "+heure+" heure "+minute+" minutes "+seconde+" secondes" );
 
