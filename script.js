@@ -34,4 +34,8 @@
        SUCRE=x
        console.error("Nous avons du SEL en Q. de " + SEL + "Nous avons du sucre en quantité de "+ SUCRE)
 
+       //Exo 2
+       var y=prompt("Mettez votre âge")
+       console.log(y)
+
 
