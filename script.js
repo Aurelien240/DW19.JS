@@ -29,13 +29,24 @@
        
        // Inversé les variables
        // Creer une var temporaire
-       x=SEL
+       temp=SEL
        SEL=SUCRE
-       SUCRE=x
+       SUCRE=temp
        console.error("Nous avons du SEL en Q. de " + SEL + "Nous avons du sucre en quantité de "+ SUCRE)
 
        //Exo 2
-       var y=prompt("Mettez votre âge")
-       console.log(y)
+       /*Y=prompt("Mettez votre âge");
+       console.log("L'utilisateur a " + Y + " ans ");
+       X=parseInt(Y) + 2
+       console.log("L' utilisateur aura " + X + " ans");*/
 
+       //Exo 3
+       /*X=prompt("Entrez le prix de l'article");
+       console.log("L'article vaut " + X + " euros");
+       Y=parseInt(X) * 1.2
+       console.log("L'article vaut " + Y + " TTC");*/
+
+       //Exo 4
+       getUTCDay();
+       console.Log("Aujourd'hui nous sommes " + getUTCDay);
 
