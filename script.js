@@ -29,7 +29,7 @@
        
        // Inversé les variables
        // Creer une var temporaire
-       let x=SEL
+       x=SEL
        SEL=SUCRE
        SUCRE=x
        console.error("Nous avons du SEL en Q. de " + SEL + "Nous avons du sucre en quantité de "+ SUCRE)
