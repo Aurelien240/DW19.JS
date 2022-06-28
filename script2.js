@@ -29,6 +29,9 @@ n=parseInt(n)
 if (n>0){
     console.log("le nombre est positif")
 }
+if (n == 0){
+    console.log("le nombre est positif")
+}
 if (n<0){
     console.log("le nombre est négatif")
 }
