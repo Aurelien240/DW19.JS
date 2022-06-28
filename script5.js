@@ -30,3 +30,7 @@
  function ecrire(){
     document.getElementById("madiv").innerHTML=document.getElementById("texte").value
  }
+ function bouton(){
+    
+    document.getElementById("madiv").innerHTML=document.getElementById("boutton")
+ }
