@@ -31,11 +31,10 @@ afficher("aurelien")
 afficher("nicolas")
 afficher("axel")*/
 function ecrire(nombre){
-    a=prompt("Choisissez un nombre")
-    b=parseInt(a) + 2
-    console.log(b)
+    nombre=nombre+2
+    console.log("Afficher " + nombre)
 }
-ecrire()
+ecrire(10)
 
 function num(nombre){
     if (nombre > 0){
@@ -45,7 +44,7 @@ function num(nombre){
         console.log("Le nombre est négatif")
     }
 }
-num()
+num(10)
 
 function pair(nombre){
     if ((nombre % 2 ) ==0 ){
@@ -56,4 +55,4 @@ function pair(nombre){
         console.log("Le nombre est impair")
     }
 }
-pair()
+pair(10)
