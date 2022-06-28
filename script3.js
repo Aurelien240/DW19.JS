@@ -29,11 +29,19 @@ for (z=1;z<11;z++){
         console.log(j+"*"+i+"="+result)
     }
 }*/
-for (i=0;i<11;i++){
+/*for (i=0;i<11;i++){
     console.log("boucle "+i)
 
     for (j=0;j<11;j++){
         result=j+i
         console.log(j+"+"+i+"="+result)
     }
+}*/
+
+/*for (i=0;i<101;i++){
+    console.log(i+"*")
 }
+
+for (h=1;h<6;h++){
+    console.log(h+" *****")
+}*/
