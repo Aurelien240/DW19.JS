@@ -23,22 +23,32 @@ if (age==18){
     console.log("Vous êtes pile majeur")
 }*/
 
-n=prompt("Choississez un nombre")
-n=parseInt(n)
+// n=prompt("Choississez un nombre")
+// n=parseInt(n)
 
-if (n>0){
-    console.log("le nombre est positif")
-}
-if (n == 0){
-    console.log("le nombre est positif")
-}
-if (n<0){
-    console.log("le nombre est négatif")
-}
+// if (n>0){
+//     console.log("le nombre est positif")
+// }
+// if (n == 0){
+//     console.log("le nombre est positif")
+// }
+// if (n<0){
+//     console.log("le nombre est négatif")
+// }
 
-if(n%2 == 0){
-    console.log("le nombre est pair")
+// if(n%2 == 0){
+//     console.log("le nombre est pair")
+// }
+// else{
+//     console.log("le nombre est impair")
+// }  
+
+prenom="aurelien"
+prenom2=prompt("Quel est votre prénom ?")
+
+if (prenom2 == prenom){
+    console.log("Sympa vous avez le même prénom que moi")
 }
 else{
-    console.log("le nombre est impair")
+    console.log("Dommage")
 }
