@@ -38,20 +38,22 @@ function ecrire(nombre){
 ecrire()
 
 function num(nombre){
-    if (nombre>0){
+    if (nombre > 0){
         console.log("Le nombre est positif")
     }
     else{
         console.log("Le nombre est négatif")
     }
 }
+num()
 
 function pair(nombre){
-    if{
-        ((nombre % 2 ) ==0 )
+    if ((nombre % 2 ) ==0 ){
+        
         console.log("Le nombre est pair")
     }
     else{
         console.log("Le nombre est impair")
     }
 }
+pair()
