@@ -30,7 +30,13 @@
  function ecrire(){
     document.getElementById("madiv").innerHTML=document.getElementById("texte").value
  }
- function bouton(){
-    
-    document.getElementById("madiv").innerHTML=document.getElementById("boutton")
+ 
+function boutton(){
+   compteur=parseInt(document.getElementById("madiv2").innerHTML) + 1
+   
+   document.getElementById("madiv2").innerHTML=compteur;
+ }
+
+ function majeur(){
+
  }
