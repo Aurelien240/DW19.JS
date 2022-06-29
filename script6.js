@@ -22,13 +22,17 @@
 //     return tab
 // }
 // console.table(ramenetab([234,55,91]))
-
+somme=0
 function calcul(tab){
- return tab.length
+ 
 
-  result=0
-  reslt=result+
+ for (i=1;i<500;i++){
 
+    somme=somme+i
+
+ }
 }
+return(tab.length)
+
 
 console.table(calcul([29,67,18,65,70]))
