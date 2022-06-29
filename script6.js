@@ -12,3 +12,23 @@ function moyenneindef(tab){
   return result
 }
 console.log(moyenneindef([]))
+
+function ramenetab(tab){
+
+    let TEMP=tab[0]
+    tab[0]=tab[1]
+    tab[1]=TEMP
+
+    return tab
+}
+console.table(ramenetab([234,55,91]))
+
+function calcul(tab){
+//  return tab.length
+
+  result=0
+  reslt=result+
+
+}
+
+console.table(calcul([29,67,18,65,70]))
