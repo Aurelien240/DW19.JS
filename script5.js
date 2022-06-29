@@ -50,29 +50,55 @@
 // }
 // }
 
-document.getElementById("multiplication_boutton").addEventListener("click", multiplication_fonction)
+// document.getElementById("multiplication_boutton").addEventListener("click", multiplication_fonction)
 
-function multuplication_fonction(){
-    // 1. RECUPERER CE QUI A DANS L INPUT TEXTE  
-    numero=parseInt(document.getElementById("multiplication_texte").value)
-    console.error(numero)
+// function multuplication_fonction(){
+//     // 1. RECUPERER CE QUI A DANS L INPUT TEXTE  
+//     numero=parseInt(document.getElementById("multiplication_texte").value)
+//     console.error(numero)
 
 
 
-    // 2. MODIFIER LA DIV
-    document.getElementById("multiplication_div").innerHTML="Table de " + numero
+//     // 2. MODIFIER LA DIV
+//     document.getElementById("multiplication_div").innerHTML="Table de " + numero
  
-    // 3. MULTIPLICATION AVEC LA BOUCLE FOR
-    for (i=1;i<10;i++){
-        document.getElementById("multiplication_div").innerHTML+="<br />" + numero+" * "+ i + " = " + (numero * i ) 
-        console.error(i)
-    }
+//     // 3. MULTIPLICATION AVEC LA BOUCLE FOR
+//     for (i=1;i<10;i++){
+//         document.getElementById("multiplication_div").innerHTML+="<br />" + numero+" * "+ i + " = " + (numero * i ) 
+//         console.error(i)
+//     }
     
 
-}
+// }
 /**
  * EXO 1 : LES IF ?
  * EXO 2 : CREEZ UN CHAMP TEXTE, UN BOUTON, UNE DIV 
  * SI J ECRIS DANS LE CHAMPS TEXTE LE NOMBRE 5
  * JE VAIS AVOIR LE RESULTAT 1 + 2 + 3 + 4 + 5 = 
  */
+ document.getElementById("SOMME_boutton").addEventListener("click", sommef)
+ function sommef(){
+     // 1 DE QUOI ON A BESOIN  CHAMP TEXTE
+     nb=parseInt(document.getElementById("SOMME_texte").value)
+     
+ 
+     if (isNaN(nb)){
+       return;
+     }
+ 
+     // On affiche dans la div LE NOMBRE DE 5 + 4 + 3 +2 +1 
+ 
+     SOMME=1
+ 
+     for (i=1; i<=nb ; i++    ){
+         SOMME=SOMME*i
+ 
+         document.getElementById("SOMME_div").innerHTML+=i+" * "
+       
+     }
+        
+     document.getElementById("SOMME_div").innerHTML+= " = " +  SOMME
+ 
+    
+ 
+ }
