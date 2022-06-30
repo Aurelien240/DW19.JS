@@ -61,7 +61,7 @@ console.log(sommetab(tab))
 console.log(maxtab(tab))
 console.log(supcinq(tab))
 
-function positive(nombre , a)
+function positive(a){
 
    if (a>0){
        return true
@@ -70,6 +70,6 @@ function positive(nombre , a)
    else{
       return false
    }
- 
+ }
 console.log(positive(5))
 console.log(positive(-20))
