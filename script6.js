@@ -66,11 +66,12 @@ function positive(nombre , a)
    if (a>0){
        return true
    }
+   
    if (a == 0){
        return true
    }
+   
    if (a<0){
        return false
    }
 let nombre=[234]
-console.log(positive(n))
