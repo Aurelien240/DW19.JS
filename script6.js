@@ -25,8 +25,21 @@
 
 function maxtab(Tableau){
    let ref_max=0
-   for (let i=0; i < tab.lenght; i++){
+   for (let i=0; i < tab.length; i++){
       if ( Tableau[i] > ref_max) {ref_max=Tableau[i]}
    }
    return ref_max
 }
+
+function tab4(tab){
+
+   min=maxtab;
+   for(u=0;u<tab.length;u++){
+      if((tab[u])<min){
+         min= tab[u]
+      }
+   }
+   return "la valeur min est :"+ min
+
+}
+console.info(tab4([12,54,91,67,20]))
