@@ -67,11 +67,9 @@ function positive(nombre , a)
        return true
    }
    
-   if (a == 0){
-       return true
+   else{
+      return false
    }
-   
-   if (a<0){
-       return false
-   }
-let nombre=[234]
+ 
+console.log(positive(5))
+console.log(positive(-20))
