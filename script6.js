@@ -23,23 +23,54 @@
 // }
 // console.table(ramenetab([234,55,91]))
 
+function comptetab(tableau){
+   let compteur=0;
+   for (i=0; i<tableau.length;i++){
+       compteur=compteur+1 // compteur++
+   }
+   return compteur
+}
+
+function sommetab(tableau){
+    let result=0
+    for(r=0;r<tab.length;r++){
+        result=result+tab[r]
+    }
+    return result
+}
+
 function maxtab(Tableau){
-   let ref_max=0
-   for (let i=0; i < tab.length; i++){
-      if ( Tableau[i] > ref_max) {ref_max=Tableau[i]}
-   }
-   return ref_max
+    let REF_MAX=0
+    for (let i=0; i < tab.length; i++){
+        if ( Tableau[i] > REF_MAX    )  {  REF_MAX=Tableau[i]   }
+    }
+    return REF_MAX
+
+  
 }
 
-function tab4(tab){
-
-   min=maxtab;
-   for(u=0;u<tab.length;u++){
-      if((tab[u])<min){
-         min= tab[u]
-      }
+function supcinq(Tableau , n ){
+   for (let i=0;i<Tableau.length;i++){
+      if (Tableau[i]>n) {return Tableau[i]}
    }
-   return "la valeur min est :"+ min
-
 }
-console.info(tab4([12,54,91,67,20]))
+
+let tab=[234,45,34,45,99999999999999]
+console.log(comptetab(tab))
+console.log(sommetab(tab))
+console.log(maxtab(tab))
+console.log(supcinq(tab))
+
+function positive(nombre , a)
+
+   if (a>0){
+       return true
+   }
+   if (a == 0){
+       return true
+   }
+   if (a<0){
+       return false
+   }
+let nombre=[234]
+console.log(positive(n))
