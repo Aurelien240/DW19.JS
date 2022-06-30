@@ -22,17 +22,11 @@
 //     return tab
 // }
 // console.table(ramenetab([234,55,91]))
-somme=0
-function calcul(tab){
- 
 
- for (i=1;i<500;i++){
-
-    somme=somme+i
-
- }
+function maxtab(Tableau){
+   let ref_max=0
+   for (let i=0; i < tab.lenght; i++){
+      if ( Tableau[i] > ref_max) {ref_max=Tableau[i]}
+   }
+   return ref_max
 }
-return(tab.length)
-
-
-console.table(calcul([29,67,18,65,70]))
