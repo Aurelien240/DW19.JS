@@ -94,7 +94,7 @@ console.log(lipton(tableau))
 //exo2
 let table=['Axel',34,'Robert','etc','Yoel','Paul','ciseaux','Paul'];
 console.table(table)
-function tab_car(table){
+function tab_car(table,){
 
  for(let i=0; i < table.length; i++){
     if(table[i] == 'ciseaux'){
@@ -106,8 +106,7 @@ function tab_car(table){
 console.log(tab_car(table))
 
 //exo3
-let table2=['Axel',34,'Robert','etc','Yoel','Paul','ciseaux','Paul'];
-console.table(table2)
+
 function tab_car(table2){
 
  for(let i=0; i < table2.length; i++){
