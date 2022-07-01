@@ -1,7 +1,7 @@
 document.getElementById("SOMME_boutton").addEventListener("click", change)
 function change(){
 
-    document.getElementById("madiv").style.color = "red";
+    document.getElementById("body").style.background = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
 }
 
 
