@@ -46,27 +46,75 @@ console.table(tableal2())
 
 
  
-function nbmajeurs(){
-    let toto=tableal2()   // GENERER UN TABLEAU ALEATOIRE AVEC DES NOMBRES 1 ET 100
+// function nbmajeurs(){
+//     let toto=tableal2()   // GENERER UN TABLEAU ALEATOIRE AVEC DES NOMBRES 1 ET 100
 
-    console.table(toto)
-    let tableausup18=new Array();
+//     console.table(toto)
+//     let tableausup18=new Array();
     
-    // COMPTER LE NOMBRE AGE > 18
+//     // COMPTER LE NOMBRE AGE > 18
 
-    // parcourir le tableau
-    for(let i=0; i < toto.length; i ++ ) {
+//     // parcourir le tableau
+//     for(let i=0; i < toto.length; i ++ ) {
 
-    // SI SUPERIEUR > 18 
+//     // SI SUPERIEUR > 18 
         
-         compteur=compteur*1.2
-         tableausup18[compteur]=toto[i]
+//          compteur=compteur*1.2
+//          tableausup18[compteur]=toto[i]
        
+//     }
+
+//     console.log(compteur);
+//     console.table(tableausup18)
+
+
+// }
+// nbmajeurs()
+
+
+/*creer une fonction avec un tableau en parametre
+creer le tableau 
+creer la condition
+creer le renvoi du tableau*/
+
+//exo1
+let tableau=['Axel',34,'Robert','etc','Yoel','Paul','Yoel','Paul'];
+console.table(tableau);
+function lipton(tableau){
+    for(let i=0; i < tableau.length; i++){
+    
+      if(tableau[i] == "Aurelien"){
+            return true;
+        }
+        }
+            return false; 
     }
+console.log(lipton(tableau))
 
-    console.log(compteur);
-    console.table(tableausup18)
+//exo2
+let table=['Axel',34,'Robert','etc','Yoel','Paul','ciseaux','Paul'];
+console.table(table)
+function tab_car(table){
 
-
+ for(let i=0; i < table.length; i++){
+    if(table[i] == 'ciseaux'){
+        return true;    
+    }
+    }
+         return false;
 }
-nbmajeurs()
+console.log(tab_car(table))
+
+//exo3
+let table2=['Axel',34,'Robert','etc','Yoel','Paul','ciseaux','Paul'];
+console.table(table2)
+function tab_car(table2){
+
+ for(let i=0; i < table2.length; i++){
+    if(table2[i] == 'ciseaux'){
+        return true;    
+    }
+    }
+         return false;
+}
+console.log(tab_car(table2))
