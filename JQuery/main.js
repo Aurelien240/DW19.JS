@@ -33,10 +33,11 @@
 // 1. Elle vous permet d'écrire du code sur plusieurs lignes (sans faire de concaténation)
 // 2. Elle permet d'inclure du JS à l'intérieur d'une string
 
-const firstname = "Aurélien";
+// const firstname = "Aurélien";
 
-$("div").html(`
-<h2>Bonjour $(firstname)</h2>
-<h4>les DW 19</h4>
-<p>blablablabla....</p>
-`);
+// $("div").html(`
+// <h2>Bonjour ${firstname}</h2>
+// <h4>les DW 19</h4>
+// <p>blablablabla....</p>
+// `);
+
